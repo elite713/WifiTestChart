@@ -1,0 +1,19 @@
+.wrapper > div {
+  border-radius: 5px;
+  background-color: rgb(207, 211, 232);
+  padding:5px;
+}
+.wrapper {
+  display: flex; 
+}
+
+.kw-bad-content, .kw-good-content, .kw-medium-content, .kw-active_channel-content, .kw-current_chanel-content {
+    display: flex;      
+} 
+.kw-bad-icon, .kw-good-icon, .kw-medium-icon, .kw-active_channel-icon, .kw-flecha-icon {
+    padding: 5px;
+}
+
+.kw-bad-tag, .kw-good-tag, .kw-medium-tag, .kw-active_channel-tag, .kw-flecha-tag {
+    padding: 5px;
+}

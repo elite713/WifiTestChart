@@ -1,0 +1,217 @@
+{
+	"wifi_recommendations": [
+		{
+			"sessionId": "household",
+			"timestamp": 0,
+			"locations": [
+				{
+					"name": "home",
+					"cpe_devices": [
+						{
+							"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+							"isGateway": true,
+							"recommendations": [
+								{
+									"frequency": "5GHz",
+									"ssids": [
+										"52212567@5GHz"
+									],
+									"preferences": {
+										"36": "strong",
+										"40": "strong",
+										"44": "strong",
+										"48": "strong",
+										"52": "strong",
+										"56": "strong",
+										"60": "medium",
+										"64": "medium",
+										"100": "strong",
+										"104": "strong",
+										"108": "strong",
+										"112": "strong",
+										"116": "strong",
+										"120": "strong",
+										"124": "strong",
+										"128": "strong",
+										"132": "strong",
+										"136": "strong",
+										"140": "strong",
+										"144": "strong",
+										"149": "strong",
+										"153": "strong",
+										"157": "strong",
+										"161": "strong",
+										"165": "strong"
+									}
+								},
+								{
+									"frequency": "2_4GHz",
+									"ssids": [
+										"52212567@2.4GHz"
+									],
+									"preferences": {
+										"channel1": "medium",
+										"channel2": "weak",
+										"channel3": "strong",
+										"channel4": "weak",
+										"channel5": "strong",
+										"channel6": "strong",
+										"channel7": "weak",
+										"channel8": "weak",
+										"channel9": "weak",
+										"channel10": "medium",
+										"channel11": "medium",
+										"channel12": "medium",
+										"channel13": "medium"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"sessionId": "DM1803904004144_1593435914174__KAU",
+			"timestamp": 1593435958951,
+			"locations": [
+				{
+					"name": "All Data",
+					"cpe_devices": [
+						{
+							"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+							"isGateway": true,
+							"recommendations": [
+								{
+									"frequency": "5GHz",
+									"ssids": [
+										"52212567@5GHz"
+									],
+									"preferences": {
+										"36": "strong",
+										"40": "strong",
+										"44": "strong",
+										"48": "strong",
+										"52": "strong",
+										"56": "strong",
+										"60": "medium",
+										"64": "medium",
+										"100": "strong",
+										"104": "strong",
+										"108": "strong",
+										"112": "strong",
+										"116": "strong",
+										"120": "strong",
+										"124": "strong",
+										"128": "strong",
+										"132": "strong",
+										"136": "strong",
+										"140": "strong",
+										"144": "strong",
+										"149": "strong",
+										"153": "strong",
+										"157": "strong",
+										"161": "strong",
+										"165": "strong"
+									}
+								},
+								{
+									"frequency": "2_4GHz",
+									"ssids": [
+										"52212567@2.4GHz"
+									],
+									"preferences": {
+										"1": "medium",
+										"2": "weak",
+										"3": "weak",
+										"4": "weak",
+										"5": "weak",
+										"6": "weak",
+										"7": "weak",
+										"8": "weak",
+										"9": "medium",
+										"10": "medium",
+										"11": "medium",
+										"12": "medium",
+										"13": "medium"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"sessionId": "DM1803904004144_1593435980083__KAU",
+			"timestamp": 1593436007924,
+			"locations": [
+				{
+					"name": "All Data",
+					"cpe_devices": [
+						{
+							"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+							"isGateway": true,
+							"recommendations": [
+								{
+									"frequency": "5GHz",
+									"ssids": [
+										"52212567@5GHz"
+									],
+									"preferences": {
+										"36": "strong",
+										"40": "strong",
+										"44": "strong",
+										"48": "strong",
+										"52": "strong",
+										"56": "strong",
+										"60": "medium",
+										"64": "medium",
+										"100": "strong",
+										"104": "strong",
+										"108": "strong",
+										"112": "strong",
+										"116": "strong",
+										"120": "strong",
+										"124": "strong",
+										"128": "strong",
+										"132": "strong",
+										"136": "strong",
+										"140": "strong",
+										"144": "strong",
+										"149": "strong",
+										"153": "strong",
+										"157": "strong",
+										"161": "strong",
+										"165": "strong"
+									}
+								},
+								{
+									"frequency": "2_4GHz",
+									"ssids": [
+										"52212567@2.4GHz"
+									],
+									"preferences": {
+										"1": "medium",
+										"2": "weak",
+										"3": "weak",
+										"4": "weak",
+										"5": "weak",
+										"6": "weak",
+										"7": "weak",
+										"8": "weak",
+										"9": "weak",
+										"10": "weak",
+										"11": "medium",
+										"12": "medium",
+										"13": "medium"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

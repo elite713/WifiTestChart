@@ -50,19 +50,19 @@
 										"52212567@2.4GHz"
 									],
 									"preferences": {
-										"channel1": "medium",
-										"channel2": "weak",
-										"channel3": "strong",
-										"channel4": "weak",
-										"channel5": "strong",
-										"channel6": "strong",
-										"channel7": "weak",
-										"channel8": "weak",
-										"channel9": "weak",
-										"channel10": "medium",
-										"channel11": "medium",
-										"channel12": "medium",
-										"channel13": "medium"
+										"1": "medium",
+										"2": "weak",
+										"3": "strong",
+										"4": "weak",
+										"5": "strong",
+										"6": "strong",
+										"7": "weak",
+										"8": "weak",
+										"9": "weak",
+										"10": "medium",
+										"11": "medium",
+										"12": "medium",
+										"13": "medium"
 									}
 								}
 							]

@@ -9,22 +9,15 @@ class FrecuencyTable extends Component {
     render() {
         const cellResult= [];
           for (var i=1; i<=13; i++){
-              var value = preferencesList["channel"+i];
-          cellResult.push(<div className="cell-1"><FrecuencyCell cellColorStyle={value} label={"chanel"+i}/>{value}</div>);  
+              var value = preferencesList[""+i];
+          cellResult.push(<div className="cell-1"><FrecuencyCell cellColorStyle={value} label={""+i}/></div>);  
           }
 
         return(
            <div>
                  <div className="wrapperfr2">
-
                     {cellResult}
-
-                   
-
-
-                  
                   </div>
-
            </div>
         )
     }

@@ -1,0 +1,655 @@
+{
+	"data_model_v2": {
+		"cpe_recommendations": {
+			"sessions": [
+				{
+					"sessionId": "household",
+					"timestamp": 0,
+					"locations": [
+						{
+							"name": "home",
+							"cpe_devices": [
+								{
+									"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+									"isGateway": true,
+									"manufacturerOui": "6C2E85",
+									"productClass": "BCM93384WVG",
+									"serialNumber": "DM1803904004144",
+									"currentChannel2_4": 11,
+									"currentChannel5": 153,
+									"bestChannel2_4": "13,12,11,10,1",
+									"bestChannel5": "128,132,136,140,144,149,100,104,108,112,116,120,124,153,157,161,165,56,52",
+									"bestSSID": "52212567@5GHz",
+									"recommendedBandGHz": "5",
+									"radioAliases": [
+										{
+											"bssid": "d8:d7:75:e3:2d:27",
+											"ssid": "52212567@5GHz",
+											"isInManagedDeviceDetails": true
+										},
+										{
+											"bssid": "d8:d7:75:e3:2d:26",
+											"ssid": "52212567@2.4GHz",
+											"isInManagedDeviceDetails": true
+										}
+									],
+									"sharedCodeSetChannelRecommendation2_4": {
+										"targetBSSID": "d8:d7:75:e3:2d:26",
+										"currentChannel": 1,
+										"bestChannel": "13,12,11"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"sessionId": "DM1803904004144_1593435914174__KAU",
+					"timestamp": 1593435958951,
+					"locations": [
+						{
+							"name": "All Data",
+							"cpe_devices": [
+								{
+									"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+									"isGateway": true,
+									"manufacturerOui": "6C2E85",
+									"productClass": "BCM93384WVG",
+									"serialNumber": "DM1803904004144",
+									"currentChannel2_4": 12,
+									"currentChannel5": 144,
+									"bestChannel2_4": "13,12,11,10,9,1",
+									"bestChannel5": "128,132,136,140,144,149,100,104,108,112,116,120,124,153,157,161,165,56,52",
+									"bestSSID": "52212567@5GHz",
+									"recommendedBandGHz": "5",
+									"radioAliases": [
+										{
+											"bssid": "d8:d7:75:e3:2d:27",
+											"ssid": "52212567@5GHz",
+											"isInManagedDeviceDetails": true
+										},
+										{
+											"bssid": "d8:d7:75:e3:2d:26",
+											"ssid": "52212567@2.4GHz",
+											"isInManagedDeviceDetails": true
+										}
+									],
+									"sharedCodeSetChannelRecommendation2_4": {
+										"targetBSSID": "d8:d7:75:e3:2d:26",
+										"currentChannel": 1,
+										"bestChannel": "13,12,11"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"sessionId": "DM1803904004144_1593435980083__KAU",
+					"timestamp": 1593436007924,
+					"locations": [
+						{
+							"name": "All Data",
+							"cpe_devices": [
+								{
+									"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+									"isGateway": true,
+									"manufacturerOui": "6C2E85",
+									"productClass": "BCM93384WVG",
+									"serialNumber": "DM1803904004144",
+									"currentChannel2_4": 1,
+									"currentChannel5": 149,
+									"bestChannel2_4": "13,12,11,1",
+									"bestChannel5": "128,132,136,140,144,149,100,104,108,112,116,120,124,153,157,161,165,56,52",
+									"bestSSID": "52212567@5GHz",
+									"recommendedBandGHz": "5",
+									"radioAliases": [
+										{
+											"bssid": "d8:d7:75:e3:2d:27",
+											"ssid": "52212567@5GHz",
+											"isInManagedDeviceDetails": true
+										},
+										{
+											"bssid": "d8:d7:75:e3:2d:26",
+											"ssid": "52212567@2.4GHz",
+											"isInManagedDeviceDetails": true
+										}
+									],
+									"sharedCodeSetChannelRecommendation2_4": {
+										"targetBSSID": "d8:d7:75:e3:2d:26",
+										"currentChannel": 1,
+										"bestChannel": "13,12"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"room_recommendations": {
+			"sessions": [
+				{
+					"sessionId": "household",
+					"timestamp": 0,
+					"locations": [
+						{
+							"name": "Gateway Room",
+							"timestamp": 1593436007924,
+							"extenderRequired": false,
+							"bestSSIDs": [
+								{
+									"bssid": "d8:d7:75:e3:2d:27",
+									"ssid": "52212567@5GHz",
+									"isInManagedDeviceDetails": true
+								}
+							],
+							"bestSSIDsEx": [
+								{
+									"ssid": "52212567@5GHz",
+									"bssid": "d8:d7:75:e3:2d:27",
+									"signalQuality": "strong"
+								}
+							],
+							"managedDeviceSignalQualities": [
+								{
+									"lowestLinkQuality": "strong",
+									"radioAliases": [
+										{
+											"bssid": "d8:d7:75:e3:2d:27",
+											"ssid": "52212567@5GHz",
+											"isInManagedDeviceDetails": true
+										}
+									]
+								},
+								{
+									"lowestLinkQuality": "strong",
+									"radioAliases": [
+										{
+											"bssid": "d8:d7:75:e3:2d:26",
+											"ssid": "52212567@2.4GHz",
+											"isInManagedDeviceDetails": true
+										}
+									]
+								}
+							],
+							"spontaneousConnections": [
+								{
+									"spontaneousConnectedSsid": "",
+									"spontaneousConnectedBssid": "",
+									"spontaneousConnectedFreq_MHz": -1,
+									"spontaneousConnectedChannel": -1,
+									"spontaneousConnectedAvgRssi_dBm": -999,
+									"spontaneousConnectedQuality": "no-link"
+								}
+							]
+						}
+					]
+				},
+				{
+					"sessionId": "DM1803904004144_1593435980083__KAU",
+					"timestamp": 1593436007924,
+					"locations": [
+						{
+							"name": "Gateway Room",
+							"timestamp": 1593436007924,
+							"extenderRequired": false,
+							"bestSSIDs": [
+								{
+									"bssid": "d8:d7:75:e3:2d:27",
+									"ssid": "52212567@5GHz",
+									"isInManagedDeviceDetails": true
+								}
+							],
+							"bestSSIDsEx": [
+								{
+									"ssid": "52212567@5GHz",
+									"bssid": "d8:d7:75:e3:2d:27",
+									"signalQuality": "strong"
+								}
+							],
+							"managedDeviceSignalQualities": [
+								{
+									"lowestLinkQuality": "strong",
+									"radioAliases": [
+										{
+											"bssid": "d8:d7:75:e3:2d:27",
+											"ssid": "52212567@5GHz",
+											"isInManagedDeviceDetails": true
+										}
+									]
+								},
+								{
+									"lowestLinkQuality": "strong",
+									"radioAliases": [
+										{
+											"bssid": "d8:d7:75:e3:2d:26",
+											"ssid": "52212567@2.4GHz",
+											"isInManagedDeviceDetails": true
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"sessionId": "DM1803904004144_1593435914174__KAU",
+					"timestamp": 1593435958951,
+					"locations": [
+						{
+							"name": "Gateway Room",
+							"timestamp": 1593435958951,
+							"extenderRequired": false,
+							"bestSSIDs": [
+								{
+									"bssid": "d8:d7:75:e3:2d:27",
+									"ssid": "52212567@5GHz",
+									"isInManagedDeviceDetails": true
+								}
+							],
+							"bestSSIDsEx": [
+								{
+									"ssid": "52212567@5GHz",
+									"bssid": "d8:d7:75:e3:2d:27",
+									"signalQuality": "strong"
+								}
+							],
+							"managedDeviceSignalQualities": [
+								{
+									"lowestLinkQuality": "strong",
+									"radioAliases": [
+										{
+											"bssid": "d8:d7:75:e3:2d:27",
+											"ssid": "52212567@5GHz",
+											"isInManagedDeviceDetails": true
+										}
+									]
+								},
+								{
+									"lowestLinkQuality": "strong",
+									"radioAliases": [
+										{
+											"bssid": "d8:d7:75:e3:2d:26",
+											"ssid": "52212567@2.4GHz",
+											"isInManagedDeviceDetails": true
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"signal_strengths_by_location": {
+			"sessions": [
+				{
+					"sessionId": "household",
+					"timestamp": 0,
+					"locations": [
+						{
+							"name": "Gateway Room",
+							"timestamp": 1593436007924,
+							"cpe_devices": [
+								{
+									"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+									"isGateway": true,
+									"channel2_4": "",
+									"ssids2_4": [
+										"52212567@2.4GHz"
+									],
+									"rssi2_4": -40,
+									"channel5": "",
+									"ssids5": [
+										"52212567@5GHz"
+									],
+									"rssi5": -40
+								}
+							]
+						}
+					]
+				},
+				{
+					"sessionId": "DM1803904004144_1593435980083__KAU",
+					"timestamp": 1593436007924,
+					"locations": [
+						{
+							"name": "Gateway Room",
+							"timestamp": 1593436007924,
+							"cpe_devices": [
+								{
+									"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+									"isGateway": true,
+									"channel2_4": "",
+									"ssids2_4": [
+										"52212567@2.4GHz"
+									],
+									"rssi2_4": -40,
+									"channel5": "",
+									"ssids5": [
+										"52212567@5GHz"
+									],
+									"rssi5": -40
+								}
+							]
+						}
+					]
+				},
+				{
+					"sessionId": "DM1803904004144_1593435914174__KAU",
+					"timestamp": 1593435958951,
+					"locations": [
+						{
+							"name": "Gateway Room",
+							"timestamp": 1593435958951,
+							"cpe_devices": [
+								{
+									"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+									"isGateway": true,
+									"channel2_4": "",
+									"ssids2_4": [
+										"52212567@2.4GHz"
+									],
+									"rssi2_4": -40,
+									"channel5": "",
+									"ssids5": [
+										"52212567@5GHz"
+									],
+									"rssi5": -40
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"wifi_recommendations": [
+			{
+				"sessionId": "household",
+				"timestamp": 0,
+				"locations": [
+					{
+						"name": "home",
+						"cpe_devices": [
+							{
+								"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+								"isGateway": true,
+								"recommendations": [
+									{
+										"frequency": "5GHz",
+										"ssids": [
+											"52212567@5GHz"
+										],
+										"preferences": {
+											"36": "strong",
+											"40": "strong",
+											"44": "strong",
+											"48": "strong",
+											"52": "strong",
+											"56": "strong",
+											"60": "medium",
+											"64": "medium",
+											"100": "strong",
+											"104": "strong",
+											"108": "strong",
+											"112": "strong",
+											"116": "strong",
+											"120": "strong",
+											"124": "strong",
+											"128": "strong",
+											"132": "strong",
+											"136": "strong",
+											"140": "strong",
+											"144": "strong",
+											"149": "strong",
+											"153": "strong",
+											"157": "strong",
+											"161": "strong",
+											"165": "strong"
+										}
+									},
+									{
+										"frequency": "2_4GHz",
+										"ssids": [
+											"52212567@2.4GHz"
+										],
+										"preferences": {
+											"1": "medium",
+											"2": "weak",
+											"3": "weak",
+											"4": "weak",
+											"5": "weak",
+											"6": "weak",
+											"7": "weak",
+											"8": "weak",
+											"9": "weak",
+											"10": "medium",
+											"11": "medium",
+											"12": "medium",
+											"13": "medium"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"sessionId": "DM1803904004144_1593435914174__KAU",
+				"timestamp": 1593435958951,
+				"locations": [
+					{
+						"name": "All Data",
+						"cpe_devices": [
+							{
+								"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+								"isGateway": true,
+								"recommendations": [
+									{
+										"frequency": "5GHz",
+										"ssids": [
+											"52212567@5GHz"
+										],
+										"preferences": {
+											"36": "strong",
+											"40": "strong",
+											"44": "strong",
+											"48": "strong",
+											"52": "strong",
+											"56": "strong",
+											"60": "medium",
+											"64": "medium",
+											"100": "strong",
+											"104": "strong",
+											"108": "strong",
+											"112": "strong",
+											"116": "strong",
+											"120": "strong",
+											"124": "strong",
+											"128": "strong",
+											"132": "strong",
+											"136": "strong",
+											"140": "strong",
+											"144": "strong",
+											"149": "strong",
+											"153": "strong",
+											"157": "strong",
+											"161": "strong",
+											"165": "strong"
+										}
+									},
+									{
+										"frequency": "2_4GHz",
+										"ssids": [
+											"52212567@2.4GHz"
+										],
+										"preferences": {
+											"1": "medium",
+											"2": "weak",
+											"3": "weak",
+											"4": "weak",
+											"5": "weak",
+											"6": "weak",
+											"7": "weak",
+											"8": "weak",
+											"9": "medium",
+											"10": "medium",
+											"11": "medium",
+											"12": "medium",
+											"13": "medium"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"sessionId": "DM1803904004144_1593435980083__KAU",
+				"timestamp": 1593436007924,
+				"locations": [
+					{
+						"name": "All Data",
+						"cpe_devices": [
+							{
+								"managedDeviceId": "DM1803904004144_d7:75:e3:2-d7:75:e3:2",
+								"isGateway": true,
+								"recommendations": [
+									{
+										"frequency": "5GHz",
+										"ssids": [
+											"52212567@5GHz"
+										],
+										"preferences": {
+											"36": "strong",
+											"40": "strong",
+											"44": "strong",
+											"48": "strong",
+											"52": "strong",
+											"56": "strong",
+											"60": "medium",
+											"64": "medium",
+											"100": "strong",
+											"104": "strong",
+											"108": "strong",
+											"112": "strong",
+											"116": "strong",
+											"120": "strong",
+											"124": "strong",
+											"128": "strong",
+											"132": "strong",
+											"136": "strong",
+											"140": "strong",
+											"144": "strong",
+											"149": "strong",
+											"153": "strong",
+											"157": "strong",
+											"161": "strong",
+											"165": "strong"
+										}
+									},
+									{
+										"frequency": "2_4GHz",
+										"ssids": [
+											"52212567@2.4GHz"
+										],
+										"preferences": {
+											"1": "medium",
+											"2": "weak",
+											"3": "weak",
+											"4": "weak",
+											"5": "weak",
+											"6": "weak",
+											"7": "weak",
+											"8": "weak",
+											"9": "weak",
+											"10": "weak",
+											"11": "medium",
+											"12": "medium",
+											"13": "medium"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"timestamped_measurements": [
+			{
+				"sessionId": "DM1803904004144_1593435914174__KAU",
+				"timestamp": 1593435958951,
+				"location": "All Data",
+				"isMasterSession": true,
+				"isRGWiFiSiteSurveySession": true
+			},
+			{
+				"sessionId": "DM1803904004144_1593435980083__KAU",
+				"timestamp": 1593436007924,
+				"location": "All Data",
+				"isMasterSession": true,
+				"isRGWiFiSiteSurveySession": true,
+				"isLatestMasterSession": true
+			}
+		],
+		"signal_strength_level_thresholds": {
+			"low": -70,
+			"medium": -50
+		},
+		"manually_configurable_channels": [
+			36,
+			40,
+			44,
+			48
+		],
+		"dfs_only_channels": [
+			50,
+			52,
+			54,
+			56,
+			58,
+			60,
+			62,
+			64,
+			100,
+			102,
+			104,
+			106,
+			108,
+			110,
+			112,
+			114,
+			116,
+			118,
+			120,
+			122,
+			124,
+			126,
+			128,
+			132,
+			134,
+			136,
+			138,
+			140,
+			142,
+			144
+		],
+		"bssid_to_device_id_metadata": {
+			"d8:d7:75:e3:2d:27": {
+				"oui": "6C2E85",
+				"pc": "BCM93384WVG",
+				"sn": "DM1803904004144"
+			},
+			"d8:d7:75:e3:2d:26": {
+				"oui": "6C2E85",
+				"pc": "BCM93384WVG",
+				"sn": "DM1803904004144"
+			}
+		},
+		"debug": "null"
+	}
+}

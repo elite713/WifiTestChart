@@ -14,7 +14,8 @@ class WifiWidgetContainer extends Component {
 
     this.state= {
       selectedSessionId: "",
-      wifiRecommendation: DataModel.data_model_v2.wifi_recommendations[0]
+      wifiRecommendation: DataModel.data_model_v2.wifi_recommendations[0],
+      CPERecommendations: DataModel.data_model_v2.cpe_recommendations.sessions[0]
     }
 
     this.refreshSession = this.refreshSession.bind(this);
@@ -28,7 +29,7 @@ class WifiWidgetContainer extends Component {
       selectedSessionId: event.target.value      
     },this.updateRecommendation)
 
-    //this.updateRecommendation();
+    console.log("from parent done");
   }
 
   updateRecommendation(){
@@ -41,10 +42,21 @@ class WifiWidgetContainer extends Component {
 
     })
 
+    let CpeRecommendResult = DataModel.data_model_v2.cpe_recommendations.sessions.filter(sessionItem => {
+
+      return this.state.selectedSessionId == sessionItem.sessionId
+    })
 
     this.setState({
       wifiRecommendation: indiceResult[0]
     })
+
+    this.setState({
+      CPERecommendations : CpeRecommendResult[0]
+    })
+
+
+
   }
 
   render() {
@@ -57,8 +69,20 @@ class WifiWidgetContainer extends Component {
             <div className="wifi-grid-reload-2"> Reload </div>
             <div className="wifi-grid-test-3"> Test Return <TestRun updateSession={this.refreshSession}/> </div>
             <div className="wifi-grid-keywords-4"> <KeyWords/> </div>
-            <div className="wifi-grid-band-24-5"> Frecuency Band 2.4 GHz <FrecuencyTable preferencesList={this.state.wifiRecommendation.locations[0].cpe_devices[0].recommendations[1].preferences}  /></div>
-            <div className="wifi-grid-band-50-6"> Frecuency Band 5 GHz <FrecuencyTable preferencesList ={this.state.wifiRecommendation.locations[0].cpe_devices[0].recommendations[0].preferences} /></div>
+            <div className="wifi-grid-band-24-5">
+               Frecuency Band 2.4 GHz 
+               <FrecuencyTable 
+                 preferencesList={this.state.wifiRecommendation.locations[0].cpe_devices[0].recommendations[1].preferences}
+                 activeChannel={this.state.CPERecommendations.locations[0].cpe_devices[0].currentChannel2_4}
+               />
+            </div>
+            <div className="wifi-grid-band-50-6">
+               Frecuency Band 5 GHz 
+               <FrecuencyTable 
+                  preferencesList ={this.state.wifiRecommendation.locations[0].cpe_devices[0].recommendations[0].preferences} 
+                  activeChannel={this.state.CPERecommendations.locations[0].cpe_devices[0].currentChannel5}
+               />
+            </div>
             <div className="wifi-grid-band-info-7"> Frecuency band informatiom </div>
             <div className="wifi-grid-buttom-8"> Bottoms Box </div>
           </div>    

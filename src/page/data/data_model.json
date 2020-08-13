@@ -15,8 +15,8 @@
 									"manufacturerOui": "6C2E85",
 									"productClass": "BCM93384WVG",
 									"serialNumber": "DM1803904004144",
-									"currentChannel2_4": 11,
-									"currentChannel5": 153,
+									"currentChannel2_4": 2,
+									"currentChannel5": 48,
 									"bestChannel2_4": "13,12,11,10,1",
 									"bestChannel5": "128,132,136,140,144,149,100,104,108,112,116,120,124,153,157,161,165,56,52",
 									"bestSSID": "52212567@5GHz",
@@ -621,7 +621,7 @@
 			106,
 			108,
 			110,
-			112,
+			112, 
 			114,
 			116,
 			118,
@@ -636,7 +636,14 @@
 			138,
 			140,
 			142,
-			144
+			144,
+			140,
+			144,
+			149,
+			153,
+			157,
+			161,
+			165
 		],
 		"bssid_to_device_id_metadata": {
 			"d8:d7:75:e3:2d:27": {

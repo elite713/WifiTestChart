@@ -48,19 +48,20 @@ class WifiWidgetContainer extends Component {
     })
 
     this.setState({
-      wifiRecommendation: indiceResult[0]
-    })
-
-    this.setState({
+      wifiRecommendation: indiceResult[0],
       CPERecommendations : CpeRecommendResult[0]
     })
-
-
 
   }
 
   render() {
     
+    const currentChannel_HH_2_4 = DataModel.data_model_v2.cpe_recommendations.sessions[0].locations[0].cpe_devices[0].currentChannel2_4;
+    const currentChannel_HH_5_0 = DataModel.data_model_v2.cpe_recommendations.sessions[0].locations[0].cpe_devices[0].currentChannel5;
+    const manauallyChannels = DataModel.data_model_v2.manually_configurable_channels;
+    const dfschannels = DataModel.data_model_v2.dfs_only_channels;
+
+
     return (
       <div>
          <div className="wifi-canvas-container">   
@@ -72,15 +73,21 @@ class WifiWidgetContainer extends Component {
             <div className="wifi-grid-band-24-5">
                Frecuency Band 2.4 GHz 
                <FrecuencyTable 
-                 preferencesList={this.state.wifiRecommendation.locations[0].cpe_devices[0].recommendations[1].preferences}
-                 activeChannel={this.state.CPERecommendations.locations[0].cpe_devices[0].currentChannel2_4}
+                 id={"2.4"}
+                 preferencesList = {this.state.wifiRecommendation.locations[0].cpe_devices[0].recommendations[1].preferences}
+                 activeChannel = {this.state.CPERecommendations.locations[0].cpe_devices[0].currentChannel2_4}
+                 currentChannel = {currentChannel_HH_2_4}
                />
             </div>
             <div className="wifi-grid-band-50-6">
                Frecuency Band 5 GHz 
                <FrecuencyTable 
-                  preferencesList ={this.state.wifiRecommendation.locations[0].cpe_devices[0].recommendations[0].preferences} 
-                  activeChannel={this.state.CPERecommendations.locations[0].cpe_devices[0].currentChannel5}
+                  id={"5.0"}
+                  preferencesList = {this.state.wifiRecommendation.locations[0].cpe_devices[0].recommendations[0].preferences} 
+                  activeChannel = {this.state.CPERecommendations.locations[0].cpe_devices[0].currentChannel5}
+                  currentChannel = {currentChannel_HH_5_0}
+                  manauallySelectionChannels = {manauallyChannels}
+                  dfsSelectionChannels = {dfschannels}
                />
             </div>
             <div className="wifi-grid-band-info-7"> Frecuency band informatiom </div>

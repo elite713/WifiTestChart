@@ -4,6 +4,7 @@
     margin: 0px;
     height: 30px;
     display: inline-block;
+    position: relative;
 }
 .frecuencyLabel{
     width: 100%;       
@@ -14,14 +15,23 @@
     background-color: rgb(233, 168, 29);
 }
 .weak{
-     background-color: rgb(170, 44, 5);
+    background-color: rgb(170, 44, 5);
 }
 .strong{
     background-color: rgb(79, 170, 5);
 }
 
 .frecuencyCell{
-  
-    border: 2px solid #0ab7ea;
     padding-top: 4px;
+}
+.frecuencyCellStyle{
+    margin-left: auto;
+    margin-right: auto;
+}
+.frecuencyImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-11px, -10px);
 }

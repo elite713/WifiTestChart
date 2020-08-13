@@ -9,9 +9,23 @@ class FrecuencyTable extends Component {
       
       const cellResult= [];
 
+      //this.props.activeChannel
+      //this.props.currentChannel
+
       Object.keys(this.props.preferencesList).forEach(key => {
 
-        cellResult.push(<div className="cell-1"><FrecuencyCell cellColorStyle={this.props.preferencesList[key]} label={key}/></div>);
+        cellResult.push(
+          <div className="cell-1">
+             <FrecuencyCell cellColorStyle = {this.props.preferencesList[key]} 
+                              label = {key}
+                              activeChannel = {this.props.activeChannel}
+                              currentChannel = {this.props.currentChannel}
+                              id= {this.props.id}
+                              manauallySelectionChannels= {this.props.manauallySelectionChannels}
+                              dfsSelectionChannels = {this.props.dfsSelectionChannels}
+                             />
+          </div>
+        );
       
       },this)
 

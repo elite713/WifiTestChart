@@ -27,7 +27,7 @@ class FrecuencyTable extends Component {
           </div>
         );
       
-      },this)
+      })
 
 
     return(

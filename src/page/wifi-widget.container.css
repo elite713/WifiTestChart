@@ -6,6 +6,7 @@
     margin-top: 30px;
     background-color: white;
     box-shadow: 0px 0px 10px #888888;
+    position: relative;
 }
 .wifi-grid-wrapper > div{
     border-radius: 5px;
@@ -28,7 +29,15 @@
 .wifi-grid-reload-2{
     grid-column: 2;
     grid-row: 1;
+    position: relative;
 }
+.refresh-image{
+    position: absolute;
+    width: 27px;
+    height: auto; 
+    right: 16px;
+  
+  }
 .wifi-grid-test-3{
     grid-column: 1;
     grid-row: 2;
@@ -52,4 +61,50 @@
 .wifi-grid-buttom-8{
     grid-column: 2;
     grid-row: 5;
+}
+.spinner-image{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-60px, -60px);
+}
+.tag-selection{
+    margin-left: 40px;
+    margin-top: -20px;
+    position: relative;
+}
+.svg-star-black{
+    position: absolute;
+    left: -25px;
+    top: 3px;
+}
+.svg-star-black path{
+    fill: black;
+}
+.wifi-grid-buttom-8{
+    position: relative;
+}
+.test-button{   
+    position: absolute;
+    background-color: #124191;
+    border: none;
+    color: #f8f8fa;
+    width: 30%;
+    height: 40px;
+    top: 50%;   
+    transform: translate(270px, -20px);
+}
+.result-button{
+    position: absolute;
+    background-color: #ffffff;
+    border: none;
+    color:darkblue;
+    text-emphasis-color: blue;   
+    width: 40%;
+    height: 55%;
+    top: 50;
+    transform: translate(21%, 13%);
 }
